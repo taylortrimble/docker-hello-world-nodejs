@@ -15,4 +15,4 @@ RUN cd /var/www; \
 ADD app.js /var/www/app.js
 
 CMD ["/usr/bin/node", "/var/www/app.js"] 
-EXPOSE 8080
+EXPOSE 3717

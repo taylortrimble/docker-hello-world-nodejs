@@ -8,7 +8,7 @@ before(function(done) {
 
 var client = restify.createStringClient({
   version: '*',
-  url: 'http://localhost:8080'
+  url: 'http://localhost:3717'
 });
 
 describe('Hello World server:', function() {
