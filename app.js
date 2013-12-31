@@ -9,7 +9,7 @@ var commands = {
 function getProcessStdout(command, callback) {
   require('child_process').exec(command, function(err, stdout, stderr) {
     if (err) callback(err, null);
-    var output = stdout.toString().replace(/^\s+|\s+$/g, '');
+    var output = stdout.replace(/^\s+|\s+$/g, '');
     callback(null, output);
   });
 }
