@@ -1,0 +1,33 @@
+{
+  "name": "hello-world-nodejs",
+  "description": "A very, very simple Hello World web server.",
+  "version": "0.0.1",
+  "maintainers": [
+    {
+      "name": "Matthew Lewis",
+      "email": "matt@mplewis.com",
+      "web": "http://mplewis.com/"
+    }
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "1.16.2",
+    "should": "2.1.1",
+    "restify": "2.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:thenewtricks/docker-hello-world-nodejs.git"
+  },
+  "licenses": [
+    {
+      "name": "The MIT License (MIT)",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "homepage": "https://github.com/thenewtricks/docker-hello-world-nodejs",
+  "scripts": {
+    "test": "mocha"
+  }
+}
