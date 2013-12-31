@@ -1,5 +1,5 @@
 FROM ubuntu
-MAINTAINER Kimbro Staken
+MAINTAINER Matthew Lewis
 
 RUN apt-get install -y python-software-properties python
 RUN add-apt-repository ppa:chris-lea/node.js
