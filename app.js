@@ -4,7 +4,9 @@ var http = require('http');
 // Configure our HTTP server to respond with Hello World to all requests.
 var server = http.createServer(function (request, response) {
   response.writeHead(200, {'Content-Type': 'text/plain'});
-  var text = 'Hello, Docker!\n This is Node version ' + process.versions.node + '.\n';
+  var text = ('Hello, Docker!\n' +
+              'This is Node version ' + process.versions.node + '.\n' +
+              'Love, The New Tricks.\n');
   response.end(text);
 });
 
